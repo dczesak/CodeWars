@@ -1,6 +1,8 @@
 package com.czesak;
 
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -17,6 +19,9 @@ public class Main {
         System.out.println(DigPow.digPow(92, 1));
         System.out.println(DigPow.digPow(695, 2));
         System.out.println(DigPow.digPow(46288, 3));
+
+        System.out.println(Arrays.toString(Xbonacci.tribonacci(new double[]{1, 1, 1}, 10)));
+
 
     }
 
