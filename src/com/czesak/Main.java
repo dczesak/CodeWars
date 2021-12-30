@@ -40,6 +40,10 @@ public class Main {
         System.out.println(BinaryArrayToNumber.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(1, 1, 1, 1))));
         System.out.println(BinaryArrayToNumber.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(0, 1, 1, 0))));
         System.out.println(BinaryArrayToNumber.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(1, 0, 0, 1))));
+        System.out.println("***********");
+
+        //Camel case breaking
+        System.out.println(CamelCasingSolution.camelCase("camelCasing"));
 
 
     }
