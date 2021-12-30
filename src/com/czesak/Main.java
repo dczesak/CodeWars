@@ -6,21 +6,32 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-      /*  String str ="xxooo";
+        String str ="xxooo";
         System.out.println(check(str));
         System.out.println("***********");
+
+        //PIN validation
         System.out.println(validatePin("1234"));
         System.out.println(validatePin("12345"));
         System.out.println(validatePin("1234a"));
         System.out.println(validatePin("a234"));
         System.out.println(validatePin(".234"));
-*/
+        System.out.println("***********");
+
+        //DigPow
         System.out.println(DigPow.digPow(89, 1));
         System.out.println(DigPow.digPow(92, 1));
         System.out.println(DigPow.digPow(695, 2));
         System.out.println(DigPow.digPow(46288, 3));
+        System.out.println("***********");
 
+        //tribonacci
         System.out.println(Arrays.toString(Xbonacci.tribonacci(new double[]{1, 1, 1}, 10)));
+        System.out.println("***********");
+
+        //String order
+        System.out.println(Order.order("is2 Thi1s T4est 3a"));
+        System.out.println(Order.order("4of Fo1r pe6ople g3ood th5e the2"));
 
 
     }
