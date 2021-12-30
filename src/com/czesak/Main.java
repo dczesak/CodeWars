@@ -44,7 +44,10 @@ public class Main {
 
         //Camel case breaking
         System.out.println(CamelCasingSolution.camelCase("camelCasing"));
+        System.out.println("***********");
 
+        //Array to phone number
+        System.out.println(ArrayToPhoneNumber.createPhoneNumber(new int[] {1,2,3,4,5,6,7,8,9,0}));
 
     }
 
