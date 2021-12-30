@@ -1,12 +1,13 @@
 package com.czesak;
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        String str ="xxooo";
+        String str = "xxooo";
         System.out.println(check(str));
         System.out.println("***********");
 
@@ -32,6 +33,13 @@ public class Main {
         //String order
         System.out.println(Order.order("is2 Thi1s T4est 3a"));
         System.out.println(Order.order("4of Fo1r pe6ople g3ood th5e the2"));
+        System.out.println("***********");
+
+        //Binary array to number
+        System.out.println(BinaryArrayToNumber.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(0, 0, 0, 1))));
+        System.out.println(BinaryArrayToNumber.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(1, 1, 1, 1))));
+        System.out.println(BinaryArrayToNumber.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(0, 1, 1, 0))));
+        System.out.println(BinaryArrayToNumber.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(1, 0, 0, 1))));
 
 
     }
