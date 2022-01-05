@@ -48,6 +48,11 @@ public class Main {
 
         //Array to phone number
         System.out.println(ArrayToPhoneNumber.createPhoneNumber(new int[] {1,2,3,4,5,6,7,8,9,0}));
+        System.out.println("***********");
+
+        //String to camelCase
+        System.out.println(StringToCamelCase.toCamelCase("the_Stealth_Warrior"));
+        System.out.println(StringToCamelCase.toCamelCase("the-Stealth-Warrior"));
 
     }
 
