@@ -53,6 +53,10 @@ public class Main {
         //String to camelCase
         System.out.println(StringToCamelCase.toCamelCase("the_Stealth_Warrior"));
         System.out.println(StringToCamelCase.toCamelCase("the-Stealth-Warrior"));
+        System.out.println("***********");
+
+        //Sorting int array
+        System.out.println(Arrays.toString(SortingArray.sortArray(new int[]{5, 2, 3, 6})));
 
     }
 
@@ -68,14 +72,11 @@ public class Main {
                 x++;
             }
         }
-        if (x == o) {
-            return true;
-        } else return false;
+        return x == o;
     }
 
     private static boolean validatePin(String pin) {
-        if ((pin.length() == 4 || pin.length() == 6) && pin.matches("[0-9]+")) return true;
-        return false;
+        return (pin.length() == 4 || pin.length() == 6) && pin.matches("[0-9]+");
     }
 }
 
