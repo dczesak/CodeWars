@@ -61,6 +61,10 @@ public class Main {
 
         //Reverse string
         System.out.println(StringReverse.reverseString("abc"));
+        System.out.println("***********");
+
+        //Target sum
+        System.out.println(Arrays.toString(TargetSum.twoSum(new int[]{3,2,4}, 6)));
 
     }
 
