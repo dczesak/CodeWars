@@ -57,6 +57,10 @@ public class Main {
 
         //Sorting int array
         System.out.println(Arrays.toString(SortingArray.sortArray(new int[]{5, 2, 3, 6})));
+        System.out.println("***********");
+
+        //Reverse string
+        System.out.println(StringReverse.reverseString("abc"));
 
     }
 
