@@ -65,6 +65,10 @@ public class Main {
 
         //Target sum
         System.out.println(Arrays.toString(TargetSum.twoSum(new int[]{3,2,4}, 6)));
+        System.out.println("***********");
+
+        //Diamond
+        System.out.println(Diamond.print(5));
 
     }
 
