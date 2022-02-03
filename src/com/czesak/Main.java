@@ -69,7 +69,10 @@ public class Main {
 
         //Diamond
         System.out.println(Diamond.print(5));
+        System.out.println("***********");
 
+        //BouncingBall
+        System.out.println(BouncingBall.bouncingBall(3,0.66,1.5));
     }
 
     private static boolean check(String str) {
