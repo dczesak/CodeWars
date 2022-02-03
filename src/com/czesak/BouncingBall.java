@@ -14,18 +14,19 @@ public class BouncingBall {
         If all three conditions above are fulfilled, return a positive integer, otherwise return -1.
          */
 
-        if(h < 0 || bounce > 1 || bounce < 0 || window > h) {
+        if((h <= 0) || (bounce >= 1) || (bounce <= 0) || (window >= h)) {
             return -1;
-        }
-        int count = 0;
+        } else {
+            int count = 0;
 
-        while (h > window) {
-            count++;
-            h = h * bounce;
-            if (h > window) {
+            while (h > window) {
                 count++;
+                h = h * bounce;
+                if (h > window) {
+                    count++;
+                }
             }
+            return count;
         }
-        return count;
     }
 }
