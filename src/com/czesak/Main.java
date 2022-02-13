@@ -73,6 +73,10 @@ public class Main {
 
         //BouncingBall
         System.out.println(BouncingBall.bouncingBall(3,0.66,1.5));
+        System.out.println("***********");
+
+        //FoldAnArray
+        System.out.println(Arrays.toString(FoldAnArray.foldArray(new int[]{1, 2, 3, 4, 5}, 2)));
     }
 
     private static boolean check(String str) {
