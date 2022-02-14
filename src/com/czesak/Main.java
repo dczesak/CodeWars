@@ -77,6 +77,11 @@ public class Main {
 
         //FoldAnArray
         System.out.println(Arrays.toString(FoldAnArray.foldArray(new int[]{1, 2, 3, 4, 5}, 2)));
+        System.out.println("***********");
+
+        //Greed
+        System.out.println(Greed.greedy(new int[] {2,4,4,5,4}));
+        System.out.println("***********");
     }
 
     private static boolean check(String str) {
