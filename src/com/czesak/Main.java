@@ -82,6 +82,9 @@ public class Main {
         //Greed
         System.out.println(Greed.greedy(new int[] {2,4,4,5,4}));
         System.out.println("***********");
+
+        //WhoLikesIt
+        System.out.println(WhoLikesIt.whoLikesIt("Adam","Leo", "Brad", "Dominik"));
     }
 
     private static boolean check(String str) {

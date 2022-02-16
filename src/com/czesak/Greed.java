@@ -2,9 +2,6 @@ package com.czesak;
 
 public class Greed {
     public static int greedy(int[] dice) {
-        /*
-        
-         */
         int result = 0;
         int onesCounter = 0;
         int twosCounter = 0;
