@@ -85,6 +85,14 @@ public class Main {
 
         //WhoLikesIt
         System.out.println(WhoLikesIt.whoLikesIt("Adam","Leo", "Brad", "Dominik"));
+        System.out.println("***********");
+
+        //PangramChecker
+        System.out.println(PangramChecker.check("You shall not pass!"));
+        System.out.println("***********");
+
+        //FindOutlier
+        System.out.println(FindOutlier.find(new int[] {160, 3, 1719, 19, 11, 13, -21}));
     }
 
     private static boolean check(String str) {
