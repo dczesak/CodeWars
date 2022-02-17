@@ -93,6 +93,10 @@ public class Main {
 
         //FindOutlier
         System.out.println(FindOutlier.find(new int[] {160, 3, 1719, 19, 11, 13, -21}));
+        System.out.println("***********");
+
+        //SortOddNumbers
+        System.out.println(Arrays.toString(SortOddNumbers.sort(new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0})));
     }
 
     private static boolean check(String str) {
