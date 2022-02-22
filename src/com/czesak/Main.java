@@ -97,6 +97,10 @@ public class Main {
 
         //SortOddNumbers
         System.out.println(Arrays.toString(SortOddNumbers.sort(new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0})));
+        System.out.println("***********");
+
+        //FindOdd
+        System.out.println(FindOdd.findIt(new int[] {1,2,2,3,3,3,4,3,3,3,2,2,1}));
     }
 
     private static boolean check(String str) {
