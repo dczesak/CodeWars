@@ -101,6 +101,10 @@ public class Main {
 
         //FindOdd
         System.out.println(FindOdd.findIt(new int[] {1,2,2,3,3,3,4,3,3,3,2,2,1}));
+        System.out.println("***********");
+
+        //Multiple
+        System.out.println(new Multiple().solution(10));
     }
 
     private static boolean check(String str) {
