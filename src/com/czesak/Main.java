@@ -110,6 +110,10 @@ public class Main {
         //PascalsTriangle
         System.out.println(Arrays.toString(PascalsTriangle.generate(2)));
         System.out.println("***********");
+
+        //PerfectPower
+        System.out.println(Arrays.toString(PerfectPower.isPerfectPower(4)));
+        System.out.println("***********");
     }
 
     private static boolean check(String str) {
