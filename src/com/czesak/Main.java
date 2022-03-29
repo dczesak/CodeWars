@@ -105,6 +105,11 @@ public class Main {
 
         //Multiple
         System.out.println(new Multiple().solution(10));
+        System.out.println("***********");
+
+        //PascalsTriangle
+        System.out.println(Arrays.toString(PascalsTriangle.generate(2)));
+        System.out.println("***********");
     }
 
     private static boolean check(String str) {
