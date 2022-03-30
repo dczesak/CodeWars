@@ -112,7 +112,7 @@ public class Main {
         System.out.println("***********");
 
         //PerfectPower
-        System.out.println(Arrays.toString(PerfectPower.isPerfectPower(4)));
+        System.out.println(Arrays.toString(PerfectPower.isPerfectPower(81)));
         System.out.println("***********");
     }
 

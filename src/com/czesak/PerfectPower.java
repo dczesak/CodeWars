@@ -1,6 +1,7 @@
 package com.czesak;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PerfectPower {
     /*
@@ -16,21 +17,26 @@ public class PerfectPower {
     public static int[] isPerfectPower(int n) {
         int m;
         int k;
-        int[] result = new int[2];
-
+        List<Integer> temp = new ArrayList<>();
+        List<Integer> result = new ArrayList<>();
         for (int i = 2; i < n; i++) {
             m = i;
             for (int j = 2; j < n; j++) {
                 k = j;
                 if (Math.pow(m, k) == n) {
-                    result[0] = m;
-                    result[1] = k;
+                    temp.add(m);
+                    temp.add(k);
                 }
             }
         }
-        if (Arrays.stream(result).allMatch(e -> e !=0)) {
-            return result;
+
+        if (temp.isEmpty()) {
+            return null;
+        } else {
+            for (int i = 0; i < 2; i++) {
+                result.add(temp.get(i));
+            }
         }
-         else return null;
+        return result.stream().mapToInt(i -> i).toArray();
     }
 }
