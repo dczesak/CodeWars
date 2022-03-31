@@ -1,5 +1,7 @@
 package com.czesak;
 
+import java.util.Arrays;
+
 public class SupermarketQueue {
     /*
     There is a queue for the self-checkout tills at the supermarket. Your task is write a function
@@ -14,8 +16,11 @@ public class SupermarketQueue {
     The function should return an integer, the total time required.
      */
     public static int solveSuperMarketQueue(int[] customers, int n) {
-        int time = 0;
-
-        return time;
+        int[] result = new int[n];
+        for (int i = 0; i < customers.length; i++) {
+            result[0] += customers[i];
+            Arrays.sort(result);
+        }
+        return result[n-1];
     }
 }

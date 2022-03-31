@@ -47,7 +47,7 @@ public class Main {
         System.out.println("***********");
 
         //Array to phone number
-        System.out.println(ArrayToPhoneNumber.createPhoneNumber(new int[] {1,2,3,4,5,6,7,8,9,0}));
+        System.out.println(ArrayToPhoneNumber.createPhoneNumber(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 0}));
         System.out.println("***********");
 
         //String to camelCase
@@ -64,7 +64,7 @@ public class Main {
         System.out.println("***********");
 
         //Target sum
-        System.out.println(Arrays.toString(TargetSum.twoSum(new int[]{3,2,4}, 6)));
+        System.out.println(Arrays.toString(TargetSum.twoSum(new int[]{3, 2, 4}, 6)));
         System.out.println("***********");
 
         //Diamond
@@ -72,7 +72,7 @@ public class Main {
         System.out.println("***********");
 
         //BouncingBall
-        System.out.println(BouncingBall.bouncingBall(3,0.66,1.5));
+        System.out.println(BouncingBall.bouncingBall(3, 0.66, 1.5));
         System.out.println("***********");
 
         //FoldAnArray
@@ -80,11 +80,11 @@ public class Main {
         System.out.println("***********");
 
         //Greed
-        System.out.println(Greed.greedy(new int[] {2,4,4,5,4}));
+        System.out.println(Greed.greedy(new int[]{2, 4, 4, 5, 4}));
         System.out.println("***********");
 
         //WhoLikesIt
-        System.out.println(WhoLikesIt.whoLikesIt("Adam","Leo", "Brad", "Dominik"));
+        System.out.println(WhoLikesIt.whoLikesIt("Adam", "Leo", "Brad", "Dominik"));
         System.out.println("***********");
 
         //PangramChecker
@@ -92,7 +92,7 @@ public class Main {
         System.out.println("***********");
 
         //FindOutlier
-        System.out.println(FindOutlier.find(new int[] {160, 3, 1719, 19, 11, 13, -21}));
+        System.out.println(FindOutlier.find(new int[]{160, 3, 1719, 19, 11, 13, -21}));
         System.out.println("***********");
 
         //SortOddNumbers
@@ -100,7 +100,7 @@ public class Main {
         System.out.println("***********");
 
         //FindOdd
-        System.out.println(FindOdd.findIt(new int[] {1,2,2,3,3,3,4,3,3,3,2,2,1}));
+        System.out.println(FindOdd.findIt(new int[]{1, 2, 2, 3, 3, 3, 4, 3, 3, 3, 2, 2, 1}));
         System.out.println("***********");
 
         //Multiple
@@ -113,6 +113,10 @@ public class Main {
 
         //PerfectPower
         System.out.println(Arrays.toString(PerfectPower.isPerfectPower(81)));
+        System.out.println("***********");
+
+        //SupermarketQueue
+        System.out.println(SupermarketQueue.solveSuperMarketQueue(new int[]{2, 3, 10}, 2));
         System.out.println("***********");
     }
 
