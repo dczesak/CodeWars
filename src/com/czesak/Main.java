@@ -118,6 +118,10 @@ public class Main {
         //SupermarketQueue
         System.out.println(SupermarketQueue.solveSuperMarketQueue(new int[]{2, 3, 10}, 2));
         System.out.println("***********");
+
+        //EqualSidesOfAnArray
+        System.out.println(EqualSidesOfAnArray.findEvenIndex(new int[] {1,100,50,-51,1,1}));
+        System.out.println("***********");
     }
 
     private static boolean check(String str) {
